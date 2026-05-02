@@ -10,15 +10,15 @@
         >
           ✦
         </span>
-        <span class="font-semibold text-slate-800">SparkSite</span>
+        <span class="font-semibold text-slate-800">BrunoPanassi</span>
       </div>
       <p class="text-center text-sm text-slate-500 sm:text-left">
-        © {{ year }} SparkSite. Websites and landing pages for cleaning company owners.
+        © {{ year }} BrunoPanassi. Websites for residential cleaning companies in USA and Australia.
       </p>
       <div class="flex gap-6 text-sm font-medium text-slate-600">
-        <a href="#benefits" class="transition hover:text-teal-700">Why</a>
-        <a href="#services" class="transition hover:text-teal-700">Services</a>
-        <a href="#contact" class="transition hover:text-teal-700">Contact</a>
+        <a href="#founder" class="transition hover:text-teal-700">Bruno</a>
+        <a href="#templates" class="transition hover:text-teal-700">Templates</a>
+        <a href="#contact" class="transition hover:text-teal-700">CTA</a>
       </div>
     </div>
   </footer>

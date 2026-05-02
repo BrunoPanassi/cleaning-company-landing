@@ -8,7 +8,7 @@
           </h2>
           <p class="mt-4 text-lg text-slate-600">
             Whether you need a single high-performing landing page or a complete site with
-            multiple services, we ship work that fits how cleaning businesses actually operate.
+            multiple pages, each block is tuned for residential cleaning buyers and quote intent.
           </p>
           <ul class="mt-8 space-y-4">
             <li
@@ -62,8 +62,8 @@
 
 <script setup lang="ts">
 const lines = [
-  'Messaging tuned to residential, commercial, or specialty cleaning (move-out, post-construction, etc.)',
-  'Structured content so Google understands your services and service areas',
+  'Messaging tuned to residential cleaning services (recurring, deep clean, move-out, add-ons)',
+  'Structured content so Google understands your service areas in USA/AUS markets',
   'Accessible, readable design—your brand colors, not a generic template dump',
   'Hands-off updates: we handle hosting setup guidance and launch checklist',
 ] as const

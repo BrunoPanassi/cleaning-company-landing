@@ -12,20 +12,18 @@
         >
           ✦
         </span>
-        <span class="text-lg font-semibold tracking-tight text-slate-900">
-          SparkSite
-        </span>
+        <span class="text-lg font-semibold tracking-tight text-slate-900"> BrunoPanassi </span>
       </a>
       <nav class="hidden items-center gap-8 text-sm font-medium text-slate-600 md:flex">
-        <a href="#benefits" class="transition hover:text-teal-700">Why it matters</a>
-        <a href="#services" class="transition hover:text-teal-700">What we build</a>
-        <a href="#process" class="transition hover:text-teal-700">How it works</a>
+        <a href="#founder" class="transition hover:text-teal-700">About Bruno</a>
+        <a href="#templates" class="transition hover:text-teal-700">Templates</a>
+        <a href="#services" class="transition hover:text-teal-700">Services</a>
       </nav>
       <a
         href="#contact"
         class="rounded-full bg-teal-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
       >
-        Get a free plan
+        Call / WhatsApp
       </a>
     </div>
   </header>

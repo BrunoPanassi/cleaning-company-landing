@@ -3,7 +3,8 @@
     <LandingHeader />
     <main>
       <LandingHero />
-      <LandingStats />
+      <LandingFounder />
+      <LandingTemplates />
       <LandingBenefits />
       <LandingServices />
       <LandingProcess />
@@ -15,11 +16,32 @@
 
 <script setup lang="ts">
 useSeoMeta({
-  title: 'SparkSite — Websites built for cleaning businesses',
+  title: 'BrunoPanassi — Websites for cleaning companies in USA & Australia',
   description:
-    'Professional websites and landing pages for residential & commercial cleaning owners. More visibility, more booked jobs.',
-  ogTitle: 'SparkSite — Websites for cleaning companies',
+    'Landing pages and websites for residential cleaning businesses. BrunoPanassi helps cleaning owners in USA and Australia turn searches into WhatsApp leads.',
+  ogTitle: 'BrunoPanassi — Websites for cleaning businesses',
   ogDescription:
-    'We design fast, trustworthy sites that turn local searches into real leads.',
+    'Website templates and custom pages focused on residential cleaning companies in USA/Australia.',
+  robots: 'index,follow',
+})
+
+useHead({
+  link: [
+    { rel: 'alternate', hreflang: 'en-US', href: 'https://brunopanassi.com/' },
+    { rel: 'alternate', hreflang: 'en-AU', href: 'https://brunopanassi.com/' },
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      textContent: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'ProfessionalService',
+        name: 'BrunoPanassi',
+        url: 'https://brunopanassi.com/',
+        areaServed: ['United States', 'Australia'],
+        serviceType: 'Website design for residential cleaning companies',
+      }),
+    },
+  ],
 })
 </script>

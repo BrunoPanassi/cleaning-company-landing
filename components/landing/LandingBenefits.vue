@@ -8,7 +8,7 @@
         <p class="mt-4 text-lg text-slate-600">
           Most cleaning owners win work through word of mouth—then lose deals when someone
           Googles the business and finds an empty profile or a broken form. We fix that gap
-          with a site that looks as professional as your service.
+          with a site that looks as professional as your residential cleaning service.
         </p>
       </div>
       <ul
