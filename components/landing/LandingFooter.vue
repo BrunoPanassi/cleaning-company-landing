@@ -17,6 +17,7 @@
       </p>
       <div class="flex gap-6 text-sm font-medium text-slate-600">
         <a href="#founder" class="transition hover:text-teal-700">Bruno</a>
+        <NuxtLink to="/" class="transition hover:text-teal-700">Developer site</NuxtLink>
         <a href="#templates" class="transition hover:text-teal-700">Templates</a>
         <a href="#contact" class="transition hover:text-teal-700">CTA</a>
       </div>

@@ -21,19 +21,17 @@
           No agency handoffs, no hidden process. Just a direct partnership and a website shaped for residential
           cleaning clients in your market.
         </p>
-        <a
-          :href="portfolioUrl"
-          target="_blank"
-          rel="noopener noreferrer"
+        <NuxtLink
+          :to="portfolioPath"
           class="mt-8 inline-flex items-center justify-center rounded-full border border-teal-600 px-6 py-3 text-sm font-semibold text-teal-700 transition hover:bg-teal-50"
         >
-          View Bruno's portfolio
-        </a>
+          View developer portfolio &amp; experience
+        </NuxtLink>
       </div>
     </div>
   </section>
 </template>
 
 <script setup lang="ts">
-import { portfolioUrl } from '~/data/site'
+import { portfolioPath } from '~/data/site'
 </script>

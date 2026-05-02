@@ -1,45 +1,41 @@
 <template>
-  <div class="min-h-screen bg-slate-50 text-slate-900 antialiased">
-    <LandingHeader />
+  <div class="min-h-screen bg-white text-slate-900 antialiased">
+    <PortfolioHeader />
     <main>
-      <LandingHero />
-      <LandingFounder />
-      <LandingTemplates />
-      <LandingBenefits />
-      <LandingServices />
-      <LandingProcess />
-      <LandingCta />
+      <PortfolioHero />
+      <PortfolioSummary />
+      <PortfolioExperience />
+      <PortfolioSkills />
+      <PortfolioProjects />
+      <PortfolioBlogTeaser />
+      <PortfolioContact />
     </main>
-    <LandingFooter />
+    <PortfolioFooter />
   </div>
 </template>
 
 <script setup lang="ts">
 useSeoMeta({
-  title: 'BrunoPanassi — Websites for cleaning companies in USA & Australia',
+  title: 'Bruno Panassi — Senior full-stack web developer',
   description:
-    'Landing pages and websites for residential cleaning businesses. BrunoPanassi helps cleaning owners in USA and Australia turn searches into WhatsApp leads.',
-  ogTitle: 'BrunoPanassi — Websites for cleaning businesses',
+    'Senior full-stack engineer: TypeScript, modern web platforms, APIs, and dependable delivery. Concise portfolio for recruiters and hiring teams.',
+  ogTitle: 'Bruno Panassi — Senior full-stack developer',
   ogDescription:
-    'Website templates and custom pages focused on residential cleaning companies in USA/Australia.',
+    'Professional portfolio: experience, technical breadth, selected work, and writing.',
   robots: 'index,follow',
 })
 
 useHead({
-  link: [
-    { rel: 'alternate', hreflang: 'en-US', href: 'https://brunopanassi.com/' },
-    { rel: 'alternate', hreflang: 'en-AU', href: 'https://brunopanassi.com/' },
-  ],
   script: [
     {
       type: 'application/ld+json',
       textContent: JSON.stringify({
         '@context': 'https://schema.org',
-        '@type': 'ProfessionalService',
-        name: 'BrunoPanassi',
+        '@type': 'Person',
+        name: 'Bruno Panassi',
         url: 'https://brunopanassi.com/',
-        areaServed: ['United States', 'Australia'],
-        serviceType: 'Website design for residential cleaning companies',
+        jobTitle: 'Senior Full-Stack Web Developer',
+        sameAs: [],
       }),
     },
   ],

@@ -1,5 +1,6 @@
 export const brandName = 'BrunoPanassi'
-export const portfolioUrl = 'https://portfolio.brunopanassi.com'
+/** Homepage portfolio (this site’s index). */
+export const portfolioPath = '/'
 export const primaryPhone = '+1 (305) 555-0149'
 export const whatsappNumber = '13055550149'
 
