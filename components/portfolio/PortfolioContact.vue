@@ -3,7 +3,7 @@
     <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 sm:py-20">
       <h2 class="text-2xl font-bold tracking-tight text-slate-900">Contact</h2>
       <p class="mt-3 max-w-2xl text-slate-600">
-        Open to senior IC or tech lead conversations. Replace the placeholders with your preferred channels.
+        Open to senior IC or tech lead conversations.
       </p>
       <div class="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-8">
         <a

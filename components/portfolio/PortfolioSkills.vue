@@ -2,9 +2,6 @@
   <section id="skills" class="scroll-mt-24 border-b border-slate-200 bg-slate-50">
     <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 sm:py-20">
       <h2 class="text-2xl font-bold tracking-tight text-slate-900">Technical breadth</h2>
-      <p class="mt-3 max-w-2xl text-slate-600">
-        Grouped for recruiters and hiring managers—adjust to match your real stack.
-      </p>
       <div class="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
         <div
           v-for="group in groups"
@@ -29,10 +26,10 @@
 
 <script setup lang="ts">
 const groups = [
-  { name: 'Languages', tags: ['TypeScript', 'JavaScript', 'SQL', 'HTML / CSS'] },
-  { name: 'Frontend', tags: ['Vue', 'Nuxt', 'React', 'Vite', 'Accessibility', 'Design systems'] },
-  { name: 'Backend & data', tags: ['Node.js', 'REST', 'GraphQL', 'PostgreSQL', 'Redis', 'Queues'] },
-  { name: 'Platform', tags: ['Docker', 'GitHub Actions', 'AWS / GCP (replace)', 'Nginx', 'Observability'] },
-  { name: 'Practices', tags: ['Code review', 'Testing', 'Trunk-based flow', 'RFCs', 'Mentoring'] },
+  { name: 'Languages', tags: ['TypeScript', 'JavaScript', 'SQL', 'HTML / CSS', 'Python', 'Java'] },
+  { name: 'Frontend', tags: ['Vue', 'Nuxt', 'React', 'Vite', 'Vuetify', 'Quasar', 'Accessibility', 'Design systems'] },
+  { name: 'Backend & data', tags: ['Node.js', 'Spring Boot', 'REST', 'GraphQL', 'PostgreSQL', 'Redis', 'Queues'] },
+  { name: 'Platform', tags: ['Docker', 'GitHub Actions', 'Nginx', 'Observability'] },
+  { name: 'Practices', tags: ['Code review', 'Unit-Testing', 'Trunk-based flow', 'RFCs', 'Mentoring'] },
 ] as const
 </script>

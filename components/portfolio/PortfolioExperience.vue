@@ -2,9 +2,6 @@
   <section id="experience" class="scroll-mt-24 border-b border-slate-200 bg-white">
     <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 sm:py-20">
       <h2 class="text-2xl font-bold tracking-tight text-slate-900">Experience</h2>
-      <p class="mt-3 max-w-2xl text-slate-600">
-        Representative roles—replace company names, dates, and bullets with your verified history.
-      </p>
       <ol class="mt-12 space-y-12">
         <li v-for="role in roles" :key="role.id" class="border-l-2 border-slate-200 pl-8">
           <div class="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
@@ -31,33 +28,50 @@ const roles = [
   {
     id: '1',
     title: 'Senior Full-Stack Engineer',
-    company: 'Company name (replace)',
-    period: '20XX — Present',
+    company: 'Turing',
+    period: '2026 — Present',
     bullets: [
-      'Owned mission-critical flows; reduced incident rate through better validation, monitoring, and runbooks.',
-      'Partnered with product to sequence delivery; cut time-to-first-value by tightening scope and instrumentation.',
-      'Mentored engineers on TypeScript, testing strategy, and pragmatic code review.',
+      'Refactor one legacy data science project made in Vue.js, by fixing existing bugs and delivering new features',
+      'The project were mixing components structures like Options API with Composition API, and Pinia with Vuex, the first huge mission was to adapt just one component structure and one state management pattern',
+      'Redo the authentication system by centralizing it with new roles and permissions, while still working the old roles through retro-compatibility',
+      'Increase performance when data tables were handling too many data by choosing the right components',
+      'Improve usability by creating new functionalities to screens like shortcuts to view more data of a unique cell and copy values of columns',
     ],
   },
   {
     id: '2',
-    title: 'Full-Stack Engineer',
-    company: 'Company name (replace)',
-    period: '20XX — 20XX',
+    title: 'Mid Full-Stack Developer',
+    company: 'Jtech/Veolia',
+    period: '2022 — 2026',
     bullets: [
-      'Built and evolved customer-facing web apps with accessible, responsive UI and resilient APIs.',
-      'Improved performance (TTFB, bundle size, DB queries) with profiling-driven changes.',
-      'Contributed to platform foundations: shared UI kit, auth patterns, deployment pipelines.',
+      'Helped the team to solve bugs on the new repagination application project maded in Vue.js, Quasar, Spring Boot and Postgre/SQL',
+      'Responsible for solving bugs and developing new features especially on the front-end side of the repagination on the web application project',
+      'Developed new features that was first identified as bugs, then discussed with analysts for the task requirements',
+      'Lead and developed one major task crucial for the attendance of the application, through WebSocket API and Vuex State Management',
+      'Developed major features to the new interface requested by dozens of customers. Reviewed code of coworkers on the team',
+      'Started to use JUnit creating new tests to improve the quality of the code refactored',
     ],
   },
   {
     id: '3',
-    title: 'Software Engineer',
-    company: 'Company name (replace)',
-    period: '20XX — 20XX',
+    title: 'Mid Full-Stack Developer',
+    company: 'Solinftec',
+    period: '2021 — 2022',
     bullets: [
-      'Shipped features across the stack; collaborated in agile teams with clear ownership.',
-      'Participated in on-call rotation; diagnosed production issues and shipped fixes quickly.',
+      'Joined a new harvest automation project to remake the system in Vue.js, using Typescript, Vuetify, Spring Boot, Oracle PL/SQL',
+      'Developed a feature that was able to one client send another truck to another client to make the harvest if they need so, using Observable on Vue.js to view the data on real time, and procedures on Oracle PL/SQL for the business model.',
+      'Developed endpoints of the REST API and partipated on code reviews of the coworkers on the project.'
+    ],
+  },
+  {
+    id: '4',  
+    title: 'Junior Full-Stack Developer',
+    company: 'FMX',
+    period: '2018 — 2021',
+    bullets: [
+      'Solved bugs and released new features on car rent, bovine tract automation and real state construction web applications using Vue.js, Vuetify, Spring Boot, SQL Serverand PostgreSQL',
+      'Led the team on solving bugs on the car rent project.',    
+      'On the last project, was made a executable in Python to convert a spreadsheet into a text file. which later would be used on the project, in the end of every month. This task was performed manually and lasted at leats 4 hours to execute, after the executable created, it started to last 10 seconds to execute the same task, which takes 0,07% of the time that was taken to be executed'
     ],
   },
 ] as const
