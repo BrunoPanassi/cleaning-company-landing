@@ -3,7 +3,7 @@
     <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 sm:py-20">
       <h2 class="text-2xl font-bold tracking-tight text-slate-900">Selected work</h2>
       <p class="mt-3 max-w-2xl text-slate-600">
-        Placeholder case studies—swap for NDA-safe summaries, public repos, or architecture diagrams.
+        Some of the public repos of personal projects that i had been working on
       </p>
       <div class="mt-10 grid gap-8 lg:grid-cols-3">
         <article

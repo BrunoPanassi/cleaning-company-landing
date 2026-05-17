@@ -9,7 +9,7 @@
       </p>
       <h1 class="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Writing</h1>
       <p class="mt-3 text-lg text-slate-600">
-        Technical notes and longer-form thoughts. Replace placeholders with your own posts.
+        Technical notes and some longer-form thoughts.
       </p>
       <ul class="mt-12 space-y-10">
         <li v-for="post in posts" :key="post.path">

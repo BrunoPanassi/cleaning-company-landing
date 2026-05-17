@@ -6,7 +6,6 @@
       <PortfolioSummary />
       <PortfolioExperience />
       <PortfolioSkills />
-      <PortfolioProjects />
       <PortfolioBlogTeaser />
       <PortfolioContact />
     </main>

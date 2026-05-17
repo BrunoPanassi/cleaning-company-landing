@@ -4,7 +4,7 @@
       <div class="flex flex-col justify-between gap-6 sm:flex-row sm:items-end">
         <div>
           <h2 class="text-2xl font-bold tracking-tight text-slate-900">From the blog</h2>
-          <p class="mt-3 max-w-xl text-slate-600">Longer writing on engineering practice—expand or replace the placeholder posts.</p>
+          <p class="mt-3 max-w-xl text-slate-600">Non-AI-generated articles written by me.</p>
         </div>
         <NuxtLink
           to="/blog"

@@ -38,7 +38,7 @@
 </template>
 
 <script setup lang="ts">
-const email = 'you@example.com'
-const linkedinUrl = 'https://www.linkedin.com/in/your-profile'
-const githubUrl = 'https://github.com/your-username'
+const email = 'brunoounicooriginal@gmail.com'
+const linkedinUrl = 'https://www.linkedin.com/in/bruno-henrique-panassi/'
+const githubUrl = 'https://github.com/BrunoPanassi'
 </script>

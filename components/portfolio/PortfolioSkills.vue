@@ -28,8 +28,8 @@
 const groups = [
   { name: 'Languages', tags: ['TypeScript', 'JavaScript', 'SQL', 'HTML / CSS', 'Python', 'Java'] },
   { name: 'Frontend', tags: ['Vue', 'Nuxt', 'React', 'Vite', 'Vuetify', 'Quasar', 'Accessibility', 'Design systems'] },
-  { name: 'Backend & data', tags: ['Node.js', 'Spring Boot', 'REST', 'GraphQL', 'PostgreSQL', 'Redis', 'Queues'] },
+  { name: 'Backend & data', tags: ['Node.js', 'Spring Boot', 'REST', 'PostgreSQL'] },
   { name: 'Platform', tags: ['Docker', 'GitHub Actions', 'Nginx', 'Observability'] },
-  { name: 'Practices', tags: ['Code review', 'Unit-Testing', 'Trunk-based flow', 'RFCs', 'Mentoring'] },
+  { name: 'Practices', tags: ['Code review', 'Unit-Testing', 'Trunk-based flow', 'RFCs', 'Design Patterns', 'SOLID'] },
 ] as const
 </script>
