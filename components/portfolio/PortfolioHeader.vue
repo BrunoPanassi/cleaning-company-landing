@@ -6,8 +6,7 @@
         <a href="#summary" class="transition hover:text-slate-900">Summary</a>
         <a href="#experience" class="transition hover:text-slate-900">Experience</a>
         <a href="#skills" class="transition hover:text-slate-900">Skills</a>
-        <a href="#projects" class="transition hover:text-slate-900">Work</a>
-        <NuxtLink to="/blog" class="transition hover:text-slate-900">Blog</NuxtLink>
+        <a href="#blog" class="transition hover:text-slate-900">Blog</a>
         <a href="#contact" class="transition hover:text-slate-900">Contact</a>
       </nav>
       <a

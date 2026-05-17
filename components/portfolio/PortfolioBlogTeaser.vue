@@ -1,5 +1,5 @@
 <template>
-  <section class="border-b border-slate-200 bg-slate-50">
+  <section id="blog" class="border-b border-slate-200 bg-slate-50">
     <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 sm:py-20">
       <div class="flex flex-col justify-between gap-6 sm:flex-row sm:items-end">
         <div>

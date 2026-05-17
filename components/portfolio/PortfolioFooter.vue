@@ -6,7 +6,7 @@
       </p>
       <div class="flex gap-6 text-sm font-medium text-slate-700">
         <NuxtLink to="/blog" class="hover:text-slate-900">Blog</NuxtLink>
-        <a href="#contact" class="hover:text-slate-900">Contact</a>
+        <a href="#experience" class="hover:text-slate-900">Experience</a>
       </div>
     </div>
   </footer>
