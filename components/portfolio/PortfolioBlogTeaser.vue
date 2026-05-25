@@ -32,5 +32,6 @@
 <script setup lang="ts">
 const { data: posts } = await useAsyncData('portfolio-blog-teaser', () =>
   queryCollection('blog').order('date', 'DESC').limit(3).select('title', 'path', 'description', 'date').all(),
+  { server: false}
 )
 </script>

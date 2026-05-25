@@ -38,7 +38,7 @@
 </template>
 
 <script setup lang="ts">
-const email = 'brunoounicooriginal@gmail.com'
+const email = 'contact@brunopanassi.com'
 const linkedinUrl = 'https://www.linkedin.com/in/bruno-henrique-panassi/'
 const githubUrl = 'https://github.com/BrunoPanassi'
 </script>
