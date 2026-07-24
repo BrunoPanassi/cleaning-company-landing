@@ -2,6 +2,7 @@
 title: 'The good and old legacy code'
 description: 'What can be learned and extracted from projects like that'
 date: '2026-04-05'
+type: 'Toughts'
 ---
 
 I've seen people hesitant to work with legacy code, often fearing encountering code that is unfriendly and impossible to understand.

@@ -2,6 +2,7 @@
 title: 'TIL: @MappedSuperclass vs. @Inheritance (JPA)'
 description: 'What i have learned about it and how this can help you'
 date: '2022-12-17'
+type: 'Back-end'
 ---
 
 Today i needed to learn the difference between _MappedSuperclass_ and _Inheritance_ especially for use in my personal project.

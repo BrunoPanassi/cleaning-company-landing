@@ -2,6 +2,7 @@
 title: 'Search submenu tabs with flatMap and Vuetify'
 description: 'A simple, fast and elegant approach'
 date: '2022-03-07'
+type: 'Front-End'
 ---
 
 On these days on work i had to add a search in a menu that has v-tabs on it, and when i finished, there was two approaches on how to do this. Of course that the changes in the system was more complex than in this example, but i hope that this can help someone.

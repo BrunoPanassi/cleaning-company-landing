@@ -2,6 +2,7 @@
 title: 'What do you think what happens when you use find on Vue computed?'
 description: 'By the end of this text, i will convince you not to use it'
 date: '2026-05-04'
+type: 'Front-End'
 ---
 
 ### What do you think the following method does?

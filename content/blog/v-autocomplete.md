@@ -2,6 +2,7 @@
 title: 'Why not v-autocomplete?'
 description: 'The most simple and complete input component that you need'
 date: '2026-04-09'
+type: 'Front-End'
 ---
 
 I say this because these two components, as found in the documentation, reference each other as "Look, you can choose this one too," but it's shown alongside v-autocomplete, which is much more useful.

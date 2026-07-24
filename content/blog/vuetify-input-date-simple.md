@@ -2,6 +2,7 @@
 title: 'The most simple way to create a date input on Vuetify'
 description: 'No, its not with a properly date component'
 date: '2026-05-16'
+type: 'Front-End'
 ---
 
 The easiest way to create a Date input using Vue and Vuetify is not with v-date-picker.

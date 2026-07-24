@@ -1,6 +1,7 @@
 ---
 title: 'OMG, this was not supposed to be merged, how do i revert?'
 description: 'Every developer has been through this.'
+type: 'Version Control'
 date: '2022-04-12'
 ---
 

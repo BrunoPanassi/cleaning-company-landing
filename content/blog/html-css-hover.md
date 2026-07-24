@@ -2,6 +2,7 @@
 title: 'When hover prop doesnt work on javascript frameworks'
 description: 'On this case, choose the native way'
 date: '2026-04-19'
+type: 'Front-End'
 ---
 
 Even if you've learned a framework that solves many problems beforehand, you might end up opting for a simpler solution, just using simpler functionalities.

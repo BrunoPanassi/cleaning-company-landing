@@ -2,6 +2,7 @@
 title: 'The only right way of updating prop on Vue component'
 description: 'A mandatory rule for every Vue component'
 date: '2026-03-29'
+type: 'Front-End'
 ---
 
 Changing a prop directly in a Vue component is ugly, and besides being ugly, it's also very performant.

@@ -2,6 +2,7 @@
 title: 'Using an Array of strings in a query with Oracle PL/SQL '
 description: 'A common and efficient way'
 date: '2022-03-22'
+type: 'Database'
 ---
 
 ## Oracle Function

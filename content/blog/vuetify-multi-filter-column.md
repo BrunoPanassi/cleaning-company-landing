@@ -2,6 +2,7 @@
 title: 'Multi Filter Column in Vuetify Data Table '
 description: 'When the suggestion of the documentation doenst work'
 date: '2021-04-24'
+type: 'Front-End'
 ---
 
 I know that there is a solution for this if you see the documentation for custom filter in data table, but i tried and for some reason it didn’t work. So i search for other solution and i find many other ways, but the only one that allowed multi filter column independent of the filtering order, was the one that i will show here.

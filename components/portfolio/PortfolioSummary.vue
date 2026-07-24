@@ -1,22 +1,22 @@
 <template>
-  <section id="summary" class="scroll-mt-24 border-b border-slate-200 bg-slate-50">
+  <section id="summary" class="scroll-mt-24 border-b border-slate-200 bg-slate-50 dark:border-slate-800 dark:bg-slate-900">
     <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 sm:py-20">
-      <h2 class="text-2xl font-bold tracking-tight text-slate-900">At a glance</h2>
+      <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-slate-100">At a glance</h2>
       <div class="mt-8 grid gap-10 lg:grid-cols-3">
         <div class="lg:col-span-2">
-          <p class="text-lg leading-relaxed text-slate-700">
+          <p class="text-lg leading-relaxed text-slate-700 dark:text-slate-300">
             {{ summary }}
           </p>
-          <ul class="mt-6 space-y-3 text-slate-700">
+          <ul class="mt-6 space-y-3 text-slate-700 dark:text-slate-300">
             <li v-for="point in proofPoints" :key="point" class="flex gap-3">
-              <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-slate-900" aria-hidden="true" />
+              <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-slate-900 dark:bg-slate-100" aria-hidden="true" />
               <span>{{ point }}</span>
             </li>
           </ul>
         </div>
-        <aside class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-          <h3 class="text-sm font-semibold uppercase tracking-wide text-slate-500">Focus</h3>
-          <ul class="mt-4 space-y-2 text-sm text-slate-700">
+        <aside class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-950">
+          <h3 class="text-sm font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">Focus</h3>
+          <ul class="mt-4 space-y-2 text-sm text-slate-700 dark:text-slate-300">
             <li v-for="item in focusAreas" :key="item">{{ item }}</li>
           </ul>
         </aside>
