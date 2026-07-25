@@ -1,19 +1,19 @@
 <template>
-  <section id="skills" class="scroll-mt-24 border-b border-slate-200 bg-slate-50 dark:border-slate-800 dark:bg-slate-900">
+  <section id="skills" class="scroll-mt-24 bg-primary">
     <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 sm:py-20">
-      <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-slate-100">Technical breadth</h2>
+      <h2 class="text-2xl font-bold tracking-tight text-primary">Technical breadth</h2>
       <div class="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
         <div
           v-for="group in groups"
           :key="group.name"
-          class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-950"
+          class="rounded-2xl border border-theme bg-primary p-6 shadow-sm"
         >
-          <h3 class="text-sm font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">{{ group.name }}</h3>
+          <h3 class="text-sm font-semibold uppercase tracking-wide text-primary">{{ group.name }}</h3>
           <ul class="mt-4 flex flex-wrap gap-2">
             <li
               v-for="tag in group.tags"
               :key="tag"
-              class="rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-800 dark:bg-slate-800 dark:text-slate-200"
+              class="rounded-full bg-primary px-3 py-1 text-xs font-medium text-primary "
             >
               {{ tag }}
             </li>

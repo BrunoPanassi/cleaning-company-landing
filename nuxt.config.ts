@@ -36,4 +36,7 @@ export default defineNuxtConfig({
   ogImage: {
     enabled: false,
   },
+  css: [
+    "~/assets/css/theme.css"
+  ]
 })

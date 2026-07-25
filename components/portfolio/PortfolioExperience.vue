@@ -1,19 +1,19 @@
 <template>
-  <section id="experience" class="scroll-mt-24 border-b border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-950">
+  <section id="experience" class="scroll-mt-24 border-theme bg-primary">
     <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 sm:py-20">
-      <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-slate-100">Experience</h2>
+      <h2 class="text-2xl font-bold tracking-tight text-primary">Experience</h2>
       <ol class="mt-12 space-y-12">
-        <li v-for="role in roles" :key="role.id" class="border-l-2 border-slate-200 pl-8 dark:border-slate-800">
+        <li v-for="role in roles" :key="role.id" class="border-theme">
           <div class="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
             <div>
-              <h3 class="text-lg font-semibold text-slate-900 dark:text-slate-100">{{ role.title }}</h3>
-              <p class="text-sm font-medium text-slate-700 dark:text-slate-300">{{ role.company }}</p>
+              <h3 class="text-lg font-semibold text-primary">{{ role.title }}</h3>
+              <p class="text-sm font-medium text-primary">{{ role.company }}</p>
             </div>
-            <p class="text-sm text-slate-500 dark:text-slate-400">{{ role.period }}</p>
+            <p class="text-sm text-primary">{{ role.period }}</p>
           </div>
-          <ul class="mt-4 space-y-2 text-sm leading-relaxed text-slate-600 dark:text-slate-400">
+          <ul class="mt-4 space-y-2 text-sm leading-relaxed text-primary">
             <li v-for="bullet in role.bullets" :key="bullet" class="flex gap-2">
-              <span class="text-slate-400 dark:text-slate-600" aria-hidden="true">—</span>
+              <span class="text-primary" aria-hidden="true">—</span>
               <span>{{ bullet }}</span>
             </li>
           </ul>

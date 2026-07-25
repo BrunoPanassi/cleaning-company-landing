@@ -1,0 +1,65 @@
+/* assets/css/theme.css */
+
+.theme-root {
+
+    /* Backgrounds */
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8fafc;
+
+    /* Background on hover */
+    --bg-primary-on-hover: #cacbcc;
+
+    /* Text */
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+
+    /* Text on Hover */
+    --text-primary-on-hover: #182542;
+
+    /* Border */
+    --border-theme: #a5aab0;
+}
+
+.theme-root.dark {
+
+    --bg-primary: #020617;
+    --bg-secondary: #0f172a;
+
+    /* Background on hover */
+    --bg-primary-on-hover: #0f172a;
+
+    --text-primary: #f8fafc;
+    --text-secondary: #cbd5e1;
+
+    --text-primary-on-hover: #cbd5e1;
+
+    --border-theme: #334155;
+}
+
+.bg-primary {
+    background-color: var(--bg-primary);
+}
+
+.bg-button:hover {
+    background-color: var(--bg-primary-on-hover);
+}
+
+.bg-secondary {
+    background-color: var(--bg-secondary);
+}
+
+.text-primary {
+    color: var(--text-primary);
+}
+
+.text-button:hover {
+    color: var(--text-primary-on-hover);
+}
+
+.text-secondary {
+    color: var(--text-secondary);
+}
+
+.border-theme {
+    border-color: var(--border-theme);
+}

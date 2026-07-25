@@ -1,13 +1,13 @@
 <template>
-  <section class="min-h-screen border-b border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-950">
+  <section class="min-h-screen bg-primary">
     <main class="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
-      <p class="text-sm font-medium text-slate-500 dark:text-slate-400">
-        <NuxtLink to="/" class="text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100">Home</NuxtLink>
-        <span class="mx-2 text-slate-300 dark:text-slate-600">/</span>
+      <p class="text-sm font-medium text-primary">
+        <NuxtLink to="/" class="text-primary">Home</NuxtLink>
+        <span class="mx-2 text-primary">/</span>
         Blog
       </p>
-      <h1 class="mt-4 text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100 sm:text-4xl">Writing</h1>
-      <p class="mt-3 text-lg text-slate-600 dark:text-slate-400">
+      <h1 class="mt-4 text-3xl font-bold tracking-tight text-primary sm:text-4xl">Writing</h1>
+      <p class="mt-3 text-lg text-primary">
         Technical notes and some longer-form thoughts.
       </p>
 
@@ -18,14 +18,14 @@
             v-model="searchQuery"
             type="search"
             placeholder="Search by title..."
-            class="w-full rounded-full border border-slate-500 bg-white px-4 py-2.5 text-sm text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-slate-400 focus:ring-2 focus:ring-slate-400/20 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:placeholder:text-slate-500 dark:focus:border-slate-600 dark:focus:ring-slate-600/20"
+            class="w-full rounded-full border border-theme bg-primary px-4 py-2.5 text-sm text-primary outline-none transition placeholder:text-slate-400 focus:border-slate-400 focus:ring-2 focus:ring-slate-400/20"
           >
         </label>
         <label class="sm:w-56">
           <span class="sr-only">Filter posts by type</span>
           <select
             v-model="selectedType"
-            class="w-full rounded-full border border-slate-500 bg-white px-4 py-2.5 text-sm text-slate-900 outline-none transition focus:border-slate-400 focus:ring-2 focus:ring-slate-400/20 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:focus:border-slate-600 dark:focus:ring-slate-600/20"
+            class="w-full rounded-full border border-theme bg-primary px-4 py-2.5 text-sm text-primary outline-none transition focus:border-slate-400 focus:ring-2 focus:ring-slate-400/20"
           >
             <option value="">All types</option>
             <option v-for="type in blogPostTypes" :key="type" :value="type">
@@ -40,21 +40,21 @@
           <article>
             <NuxtLink
               :to="post.path"
-              class="group block rounded-lg border border-transparent outline-none focus-visible:ring-2 focus-visible:ring-slate-400 focus-visible:ring-offset-2 dark:focus-visible:ring-slate-600 dark:focus-visible:ring-offset-slate-950"
+              class="group block rounded-lg outline-none focus-visible:ring-2 focus-visible:ring-slate-400 focus-visible:ring-offset-2"
             >
               <div class="flex flex-wrap items-center gap-3">
                 <p v-if="post.date" class="text-sm text-slate-500 dark:text-slate-400">{{ formatDate(post.date) }}</p>
                 <span
                   v-if="post.type"
-                  class="rounded-full bg-slate-100 px-2.5 py-0.5 text-xs font-medium text-slate-700 dark:bg-slate-800 dark:text-slate-300"
+                  class="rounded-full bg-primary px-2.5 py-0.5 text-xs font-medium text-primary"
                 >
                   {{ post.type }}
                 </span>
               </div>
-              <h2 class="mt-1 text-xl font-semibold text-slate-900 group-hover:underline dark:text-slate-100">
+              <h2 class="mt-1 text-xl font-semibold text-primary group-hover:underline">
                 {{ post.title }}
               </h2>
-              <p v-if="post.description" class="mt-2 text-slate-600 dark:text-slate-400">
+              <p v-if="post.description" class="mt-2 text-primary">
                 {{ post.description }}
               </p>
             </NuxtLink>
@@ -62,11 +62,11 @@
         </li>
       </ul>
 
-      <p v-if="!posts?.length" class="mt-12 text-slate-600 dark:text-slate-400">
+      <p v-if="!posts?.length" class="mt-12 text-primary">
         No posts yet. Add Markdown files under
-        <code class="rounded bg-slate-100 px-1.5 py-0.5 text-sm dark:bg-slate-800 dark:text-slate-200">content/blog/</code>.
+        <code class="rounded bg-primary px-1.5 py-0.5 text-sm">content/blog/</code>.
       </p>
-      <p v-else-if="!filteredPosts.length" class="mt-12 text-slate-600 dark:text-slate-400">
+      <p v-else-if="!filteredPosts.length" class="mt-12 text-primary">
         No posts match your search or filter.
       </p>
     </main>
