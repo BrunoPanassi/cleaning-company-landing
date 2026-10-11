@@ -36,6 +36,12 @@ const roles = [
       'Redo the authentication system by centralizing it with new roles and permissions, while still working the old roles through retro-compatibility',
       'Increase performance when data tables were handling too many data by choosing the right components',
       'Improve usability by creating new functionalities to screens like shortcuts to view more data of a unique cell and copy values of columns',
+      'Modernizing and maintaining a legacy Vue.js application while improving code consistency and maintainability',
+      'Contributing to database performance improvements in a data-intensive application',
+      'Evolving authentication and authorization mechanisms to support new roles and permissions while maintaining backward compatibility',
+      'Implementing complex filtering capabilities for medical research data, considering query performance and existing application behavior',
+      'Developing application documentation capabilities while preserving usability and integration with the existing interface',
+      'Collaborating with engineers from different countries to deliver and maintain production features'
     ],
   },
   {

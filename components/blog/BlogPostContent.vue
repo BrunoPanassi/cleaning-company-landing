@@ -16,7 +16,7 @@
       <div
         class="text-primary mt-10 max-w-none"
       >
-        <ContentRenderer :value="page" />
+        <ContentRenderer :value="page"/>
       </div>
     </main>
   </section>
@@ -27,3 +27,27 @@ defineProps<{
   page: Record<string, unknown>
 }>()
 </script>
+
+<style>
+.bold-title {
+  font-weight: bold;
+}
+
+.eager-title {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.lighter-title {
+  font-weight: lighter;
+}
+
+.link-reference {
+  text-decoration: underline; 
+  margin-left: 16px;
+}
+
+.code-block {
+  white-space: pre-wrap;
+}
+</style>

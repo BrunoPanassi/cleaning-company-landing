@@ -5,6 +5,6 @@ date: '2026-04-24'
 type: 'Front-End'
 ---
 
-Do you often use v-data-tables with many columns and consequently a lot of data?
-
-If you've had performance issues using standard v-data-tables, take a look at v-data-table-virtual (Data table - Virtual Tables), which is ideal for handling large amounts of data.
+<p style="font-weight: bold;  font-size: 1.2em">Do you often use v-data-tables with many columns and consequently a lot of data?</p>
+<br />
+<p>If you've had performance issues using standard v-data-tables, take a look at v-data-table-virtual (Data table - Virtual Tables), which is ideal for handling large amounts of data.</p>
